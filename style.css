@@ -5,6 +5,7 @@ body {
   background-color: #3c3c3a;
 }
 
+
 .Pic {
   position: absolute;
   width: 298px;
@@ -54,6 +55,20 @@ body {
   opacity: 100%;
 }
 
+.lyrics{
+    position: absolute;
+width: 300px;
+top: 170px;
+
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: white;
+}
+
 .circle2 {
   position: absolute;
   width: 157px;
@@ -63,4 +78,21 @@ body {
   border-radius: 50%;
 
   background: #c4c4c4;
+}
+
+.circle2.hover{
+    background: honeydew;
+}
+
+.Koi{
+    position: absolute;
+width: 286px;
+height: 161px;
+opacity: 0%;
+left: 289px;
+top: 329px;
+}
+
+.Koi.active{
+    opacity: 100%;
 }
