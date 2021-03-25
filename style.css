@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+body {
+  font-family: "New Tegomin", serif;
+  background-color: #3c3c3a;
+}
+
+.Pic {
+  position: absolute;
+  width: 298px;
+  height: 298px;
+  left: 571px;
+  top: 85px;
+}
+
+.title {
+  position: absolute;
+  width: 284px;
+  height: 67px;
+  left: 573px;
+  top: 409px;
+
+  font-family: "New Tegomin", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.circle1 {
+  position: absolute;
+  width: 157px;
+  height: 157px;
+  left: 103px;
+  top: 570px;
+  border-radius: 50%;
+
+  background: #c4c4c4;
+}
+
+.Homura {
+  position: absolute;
+  width: 308px;
+  height: 171px;
+  opacity: 0%;
+  left: 46px;
+  top: 324px;
+}
+
+.Homura.active {
+  opacity: 100%;
+}
+
+.circle2 {
+  position: absolute;
+  width: 157px;
+  height: 157px;
+  left: 354px;
+  top: 570px;
+  border-radius: 50%;
+
+  background: #c4c4c4;
+}
