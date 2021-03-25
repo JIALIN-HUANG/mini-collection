@@ -25,3 +25,18 @@ function turnkoi() {
 //when someone clicks on the circle show Homura's gif
 
 circle2.addEventListener("click",turnkoi);
+
+//倒带
+//define our third song 
+let daodai = document.querySelector(".daodai");
+let circle3 = document.querySelector(".circle3");
+
+//result of the homura's gif
+function turndaodai() {
+    daodai.classList.toggle("active")
+}
+
+//add an event listner
+//when someone clicks on the circle show Homura's gif
+
+circle3.addEventListener("click",turndaodai);
