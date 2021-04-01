@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+@font-face {
+  font-family: "Ghost";
+  src: url("./assets/GhostWalkerFree-3.woff") format("woff2");
+}
+
+body {
+  font-family: "New Tegomin", serif;
+  background: linear-gradient(0deg, #373737, #898989);
+  background-size: 400% 400%;
+
+  -webkit-animation: playlistbackground 30s ease infinite;
+  -moz-animation: playlistbackground 30s ease infinite;
+  animation: playlistbackground 30s ease infinite;
+}
+
+.Pic {
+  position: absolute;
+  width: 298px;
+  height: 298px;
+  left: 571px;
+  top: 85px;
+}
+
+.message.big {
+  font-family: "Ghost";
+  font-size: 8rem;
+  text-align: center;
+}
+
+.SongTitle {
+  color: white;
+  position: absolute;
+  width: 284px;
+  height: 67px;
+  left: 45%;
+  top: 411px;
+
+  font-family: Revalia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.SongTitle2 {
+    color: white;
+    position: absolute;
+    width: 284px;
+    height: 67px;
+    left: 45%;
+    top: 520px;
+  
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .XJN{
+    position: absolute;
+    width: 166px;
+    top: 500px;
+    left: 32%;
+  }
+
+.MeanIt {
+  width: 166px;
+  top: 400px;
+  left: 32%;
+
+  position: absolute;
+}
+
+.SongTitle3{
+  color: white;
+  position: absolute;
+  width: 284px;
+  height: 67px;
+  left: 45%;
+  top: 620px;
+
+  font-family: Revalia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.wyw{
+  width: 166px;
+  top: 600px;
+  left: 32%;
+
+  position: absolute;
+}
+
+.SongTitle4{
+  color: white;
+  position: absolute;
+  width: 284px;
+  height: 67px;
+  left: 45%;
+  top: 720px;
+
+  font-family: Revalia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.im{
+  width: 166px;
+  top: 700px;
+  left: 32%;
+
+  position: absolute;
+}
+
+.SongTitle5{
+  color: white;
+  position: absolute;
+  width: 284px;
+  height: 67px;
+  left: 45%;
+  top: 820px;
+
+  font-family: Revalia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.ul{
+  width: 166px;
+  top: 740px;
+  left: 32%;
+
+  position: absolute;
+}
+.SongTitle6{
+  color: white;
+  position: absolute;
+  width: 284px;
+  height: 67px;
+  left: 45%;
+  top: 920px;
+
+  font-family: Revalia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.kzw{
+  width: 166px;
+  top: 900px;
+  left: 32%;
+
+  position: absolute;
+}
+
+@-webkit-keyframes playlistbackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes playlistbackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes playlistbackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

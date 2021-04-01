@@ -1,55 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Playlist</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My Spotify Playlist</title>
 
     <!-- add reset to create consistency between browsers and devices. -->
     <link rel="stylesheet" type="text/css" href="./reset.css">
 
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./main.css">
 
-    <!-- add defer to tell the browser to apply javascript after page has been completely parsed -->
+    <!-- add link to your javascript. be sure it includes "defer" -->
+    <script type="text/javascript" src="./airtable.browser.js" defer></script>
     <script type="text/javascript" src="./script.js" defer></script>
 </head>
 
 <body>
-
-    <div class="text">
-        <img class="Pic" src="./photo/title.jpg">
-        <p class="title">My Spotify Playlist</p>
-
-    </div>
-    <div class="circle1"></div>
-
-    <div class="Homura">
-        <p class="lyrics">僕たちは燃え盛る旅の途中で出逢い
-            </br>手を取りそして離した未来のために</p>
-        <img src="./photo/gui.gif">
-
-    </div>
-
-    <div class="circle2"></div>
-    <div class="Koi">
-
-        <p class="lyrics2">物心ついたら ふと 見上げて思うことが </br>
-            この世にいる誰も 二人から</p>
-
-        <img src="./photo/koi.gif">
-    </div>
-
-    <div class="circle3"></div>
-    <div class="daodai">
-
-        <p class="lyrics3">终于看开爱回不来</br>
-            而你总是太晚明白</p>
-
-        <img src="./photo/daodai.gif">
-    </div>
-
+    <div class="container">
+    <h1 class="message">My Spotify Playlist</h1> 
+</div>
 </body>
 
 </html>
